@@ -1,0 +1,298 @@
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* 1835px */
+
+/* ///////////////////////////////////////////////////////////////////// */
+@media (max-width: 1835px) {
+  .middleBoxImgCenter {
+    margin: 0 30px;
+  }
+
+  .profileCardGuide {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* 1440px */
+
+/* ///////////////////////////////////////////////////////////////////// */
+@media (max-width: 1440px) {
+  .middleBoxImgCenter {
+    margin: 0 20px;
+  }
+
+  .sectionContainer {
+    background-color: #eff4f2;
+    border-radius: 50px;
+    padding: 48px;
+    margin: 0 300px;
+  }
+
+  .profileCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 0;
+    justify-content: space-around;
+  }
+
+  .profileCardGuide {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* 1245px */
+
+/* ///////////////////////////////////////////////////////////////////// */
+@media (max-width: 1245px) {
+  .middleTop {
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .middleTopCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 0;
+    margin-top: 110px;
+  }
+
+  .middleBoxImgOne img {
+    width: 300px;
+  }
+
+  .middleBoxImgTwo img {
+    width: 300px;
+  }
+
+  .middleBoxImgCenter img {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  .middleBoxImgThree img {
+    width: 300px;
+  }
+
+  .middleBoxImgFour img {
+    width: 300px;
+  }
+
+  .contactSection {
+    background-image: url(https://fpx.se/wp-content/uploads/2020/03/Shibuya-crossing-Foto-Malin-Hefvelin2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 5% bottom 80%;
+    margin: 50px 0;
+    padding: 80px 0;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionContainer {
+    margin: 0 48px;
+  }
+
+  .profileCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 0;
+    justify-content: space-around;
+  }
+
+  .profileCardGuide {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .footerInfo {
+    text-align: left;
+    padding: 20px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerHeader {
+    margin-right: 20px;
+  }
+
+  .footerIcons {
+    margin-left: 20px;
+  }
+
+  footer p {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .footerIcons {
+    margin: 20px 0;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* 975px */
+
+/* ///////////////////////////////////////////////////////////////////// */
+@media (max-width: 975px) {
+  .card {
+    margin: 0 10px;
+  }
+
+  .middleBoxImgOne img {
+    width: 200px;
+  }
+
+  .middleBoxImgTwo img {
+    width: 200px;
+  }
+
+  .middleBoxImgCenter img {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  .middleBoxImgThree img {
+    width: 200px;
+  }
+
+  .middleBoxImgFour img {
+    width: 200px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* 845px */
+
+/* ///////////////////////////////////////////////////////////////////// */
+@media (max-width: 845px) {
+  .topBoxHeader h1,
+  .topBoxSubHeader h1 {
+    font-size: 2rem;
+  }
+
+  .topBoxHeader h3,
+  .topBoxSubHeader h3 {
+    font-size: 1rem;
+  }
+
+  .topBoxSubHeader {
+    text-align: center;
+  }
+
+  .headerBox {
+    width: 200px;
+  }
+
+  .middleTopCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0;
+    margin-top: 110px;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .middleBox {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+  }
+
+  .middleBoxImgOne img {
+    width: 300px;
+    height: 600px;
+    margin: 30px 0;
+    border-radius: 40px;
+  }
+
+  .middleBoxImgTwo img {
+    width: 300px;
+    height: 600px;
+    border-radius: 40px;
+  }
+
+  .middleBoxImgThree img {
+    width: 300px;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+  }
+
+  .middleBoxImgFour img {
+    width: 300px;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+  }
+
+  .middleBoxImgCenter img {
+    width: 300px;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+  }
+
+  .cardProfile {
+    display: none;
+  }
+
+  .footerInfo {
+    text-align: left;
+    padding: 0 0;
+    display: flex;
+    width: 300;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer {
+    height: 100px;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .footerHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerIcons {
+    margin: 10px 0;
+    display: flex;
+  }
+}

@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Antique Soft", serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  height: 100px;
+  margin-top: 100px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+  padding-left: 440px;
+}
+
+/*                                   Top Header                                 */
+
+.topBox {
+  height: 800px;
+  background-image: url("../Bilder/topheaderimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 5% bottom 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 30px black;
+  text-shadow: 2px 3px 2px black;
+  color: white;
+}
+
+.topBoxHeader {
+  text-align: center;
+}
+
+.topBoxHeader h1 {
+  font-size: 5rem;
+}
+
+.topBoxHeader h3 {
+  font-size: 1.5rem;
+}
+
+.topBoxSubHeader {
+  text-align: center;
+}
+
+.topBoxSubHeader h1 {
+  font-size: 2rem;
+}
+
+.topBoxSubHeader h3 {
+  font-size: 1.5rem;
+}
+
+.topBoxButton {
+  margin-top: 10px;
+}
+
+/*                                     middle                                  */
+.middleTop {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerBox {
+  width: 500px;
+}
+
+.middleHeader h1 {
+  margin-bottom: 20px;
+}
+
+.middleTopCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 400px;
+  margin-top: 110px;
+}
+
+.card {
+  width: 200px;
+  margin: 0 50px;
+}
+
+.middleCardImg {
+  width: 200px;
+}
+
+.content h2 {
+  margin: 20px;
+}
+
+.content p {
+  letter-spacing: 1px;
+}
+
+/* middle of middle */
+
+.middleBox {
+  margin: 90px 200px 0 200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.middleBoxImg img {
+  width: 400px;
+  height: 500px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.middleBoxImgOne img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  border: 2px solid #eee;
+  object-fit: cover;
+}
+
+.middleBoxImgTwo img {
+  width: 400px;
+  height: 700px;
+  border-radius: 40px;
+  border: 2px solid #eee;
+  object-fit: cover;
+}
+
+.middleBoxImgThree img {
+  width: 400px;
+  height: 600px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  border: 2px solid #eee;
+  object-fit: cover;
+}
+
+.middleBoxImgFour img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  border: 2px solid #eee;
+  object-fit: cover;
+}
+
+.middleBoxImgCenter img {
+  width: 400px;
+  height: 1035px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+/* email */
+.contactSection {
+  background-image: url("https://fpx.se/wp-content/uploads/2020/03/Shibuya-crossing-Foto-Malin-Hefvelin2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 5% bottom 80%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 80px 0;
+  box-shadow: 0 0 30px black;
+}
+
+.sectionContainer {
+  background-color: #eff4f2;
+  border-radius: 50px;
+  padding: 48px;
+  margin: 0 500px;
+}
+
+.contactFormContainer {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactContainer h3 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.contactFormContainer form {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  margin-bottom: 35px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.contactFormContainer form input,
+.contactFormContainer form textarea {
+  border: 1px solid black;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding: 11px 20px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contactFormContainer form .subjectInput,
+.contactFormContainer form .messageInput {
+  grid-column: 1 /3;
+}
+
+/* Bottom */
+
+.profileCardBox {
+  margin-top: 200px;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 200px;
+  justify-content: space-around;
+}
+
+.cardProfile {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: white;
+  margin: 30px 0;
+  height: 300px;
+  width: 600px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.profileCardImg {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #736a6a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.profileCardImg img {
+  margin: 30px 20px 0 20px;
+}
+
+.profileName {
+  font-size: 2em;
+  color: white;
+  display: flex;
+  flex: 1;
+  margin-top: 50px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
+.profileCardHeader {
+  margin-top: 100px;
+}
+
+.profileInfo {
+  margin: 20px 0;
+  color: black;
+  text-align: center;
+}
+
+.profileCardGuideBox {
+  margin-top: 80px;
+}
+
+.profileCardGuide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profileCardGuide .profileCardImg {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #5540b5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+/*                                       footer                                   */
+
+.footerInfo {
+  text-align: left;
+  padding: 20px 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerInfo h3 {
+  margin: 5px 0;
+}
+
+.footerHeader {
+  display: flex;
+}
+
+.footerHeaderBox {
+  margin-left: 20px;
+}
+
+.footerIcons {
+  display: flex;
+}
+
+.footerIconsBox {
+  margin-left: 10px;
+}
+
+/*                                      Buttons                                       */
+/* buttons topBox */
+.myButton {
+  background: linear-gradient(to bottom, #15de86 5%, #34be82 100%);
+  background-color: #15de86;
+  border-radius: 33px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 14px 42px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 black;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #34be82 5%, #15de86 100%);
+  background-color: #34be82;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* email section buttons */
+
+.mailButton {
+  box-shadow: inset 0 1px 3px 0 #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 300px;
+  padding: 12px 49px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #2b665e;
+}
+.mailButton:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
+}
+.mailButton:active {
+  position: relative;
+  top: 1px;
+}
