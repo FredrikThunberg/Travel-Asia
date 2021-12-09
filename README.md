@@ -6,7 +6,7 @@ Html  |
 Css  | 
 Live |[Live Page](https://fredrikthunberg.github.io/Travel-Asia/)
 
-<br>
+
 ####  The idea for this site  ####
 <br>
 A travel agency for group/solo traveling. <br>
