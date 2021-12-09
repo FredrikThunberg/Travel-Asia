@@ -1,10 +1,21 @@
+## Travel Asia
 
-A travel agency for group travel with a guide or only a trip to Asia without a guide.
+Technology Used  | Link
+------------- | -------------
+Html  | 
+Css  | 
+Live |[Live Page](https://fredrikthunberg.github.io/Travel-Asia/)
 
-A simple page with some pictures from different places in asia and customer cards with comments and ratings,
-as well as profile cards with which guides you can book, And some contact buttons and socialmedia buttons.
+<br>
+#### The idea for this site ####
+A travel agency for group/solo traveling. <br>
+You can book a guided tour or book a trip to Asia without a guide.
 
---> https://fredrikthunberg.github.io/Travel-Asia/ <--
+keeping it simple as a starting page to see when you visit the site, <br>
+with some pictures from different places in asia, customer cards with comments and ratings.
+As well as profile cards with which guides you can book, And some contact buttons and socialmedia buttons.
+
+
 
 ![Alt text](https://github.com/FredrikThunberg/Travel-Asia/blob/main/Travel%20Asia/Travel%20asia%20top.png)
 
