@@ -8,7 +8,6 @@ Live |[Live Page](https://fredrikthunberg.github.io/Travel-Asia/)
 
 
 ####  The idea for this site  ####
-<br>
 A travel agency for group/solo traveling. <br>
 You can book a guided tour or book a trip to Asia without a guide.
 
